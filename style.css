@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    background: #313131;
+}
+
+.container{
+    padding: 40px 40px;
+}
+
+/*NAVIGATION*/
+
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.nav{
+    background: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 0 20px;
+}
+
+.nav__img{
+    margin-top: 5px;
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/*SHOWCASE*/
+
+.showcase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('IMG/principalTransparente.png') no-repeat center;
+    height: 700px;
+}
+
+.showcase-text{
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Articles*/
+
+.article{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px
+}
+
+.article .article-img{
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
